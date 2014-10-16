@@ -7,7 +7,12 @@
 .adapter-post-preview .carousel .carousel-control {
   background-image : none ;
   top : 40% ;
-  bottom : 40% ; 
+  bottom : 40% ;
+  filter : initial ;
+}
+
+.widget.adapter-post-preview .carousel .carousel-control {
+  filter : initial ;
 }
 
 .adapter-post-preview .carousel-control .glyphicon { 
