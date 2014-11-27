@@ -3,8 +3,8 @@ Contributors: ryankienstra
 Donate link: http://jdrf.org/get-involved/ways-to-donate/
 Tags: widgets, post, Bootstrap, mobile, responsive, 
 Requires at least: 3.8
-Tested up to: 4.0 
-Stable tag: 1.0.1
+Tested up to: 4.1 
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,10 +35,10 @@ The carousel of recent posts requires Twitter Bootstrap 3 with Glyphicons.
 = How can I change the text in the post link? =
 
 Put the following in your functions.php file:
-`apply_filters( 'appw_link_text' , 'my_appw_link_text' ) ;
- function my_appw_link_text( $text ) {
-   return 'Keep reading' ; // or your own text
- }`
+`apply_filters( 'appw_link_text' , 'my_appw_link_text' );
+function my_appw_link_text( $text ) {
+	 return 'Keep reading'; // or your own text
+}`
  
 == Screenshots ==
 
@@ -47,13 +47,19 @@ Put the following in your functions.php file:
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed height in mobile display. 
+
 = 1.0.1 =
-* Fixed a bug in Internet Explorer display of the carousel
+* Fixed a bug in Internet Explorer display of the carousel.
 
 = 1.0.0 =
-* First version
+* First version.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Upgrade if you use the carousel. It now has enough height on mobile devices.
 
 = 1.0.1 =
 No need to update unless you use the carousel. This version fixes its display in Internet Explorer.

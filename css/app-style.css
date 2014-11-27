@@ -1,5 +1,5 @@
-/* carousel styling */
 
+/* carousel styling */
 .adapter-post-preview .caorousel .item {
   height : 350px ;   
 }
@@ -61,6 +61,12 @@
 .col-md-12.adapter-post-preview .item ,
 .col-md-10.adapter-post-preview .item  {
   height : 280px ;
+}
+
+@media( max-width : 400px ) {
+  .adapter-post-preview .carousel .item {
+    height : 500px ;
+  }
 }
 
 @media( max-width : 700px ) {
